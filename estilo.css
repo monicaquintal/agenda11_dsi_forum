@@ -3,56 +3,73 @@
   margin: 0;
 }
 
-header {
-  background-color: #d3d3d3;
-  text-align: center;
-}
-
-#logo {
-  width: 233px;
-  height: 150px;
-  float: left;
-  margin-top: 3px;
-}
-
-img {
-  border: 10px solid gray;
-}
-
-
-#area-logo {
-  font-size: 30px;
-  font-weight: bold;
-  padding: 15px;
-  margin-top: 10px;
-}
-
-#area-menu {
-  margin-top: 20px;
-  font-size: 15px;
-  padding: 10px;
-}
-
-#area-logo, #area-menu {
-  padding: 10px;
+body{
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+  font-size: 1em;
+  background: #fff;
+  padding: 20px;
+  width: 1080px;
 }
 
 #conteudo {
   margin: 0;
-  padding: 15px;
 }
 
-body{
-  font-family: 'Trebuchet MS', Arial, sans-serif;
-  font-size: 1em;
-  background: #F8F8FF;
+#area-posts{
+  float: left;
+  width: 800px;
+}
+
+#area-menu-lateral {
+  float: right;
+  width: 250px;
+  background: lightgray;
+  padding: 10px;
+}
+
+.post {
   padding: 20px;
+  margin-bottom: 20px;
+  background: lightgray;
 }
 
-#descricao, #mercado, #etapas, #ead, #objetivos, #vestibular {
-  padding: 15px;
-  text-align: justify;
-  line-height: 35px;
+.post-lateral {
+  font-size: 0.8em;
+  border-bottom: 1px #ccc;
+  margin: 10px 5px 15px 5px;; 
+}
+
+header {
+  background-color: gray;
+  text-align: center;
+  height: 180px;
+  width: 1080px;
+  margin-bottom: 12px;
+}
+
+#logo {
+  float: left;
+  margin: 14px 0 12px 12px;
+}
+
+img {
+  border: 10px solid darkred;
+}
+
+#area-logo {
+  font-size: 30px;
+  font-weight: bold;
+  float: right;
+  width: 820px;
+}
+
+#etec {
+  margin-top: 30px;
+  font-size: 1.4em;
+}
+
+#area-logo, #area-menu {
+  padding: 10px;
 }
 
 h1 {
@@ -61,11 +78,17 @@ h1 {
 
 h3 {
   color:brown;
+  background: white;
+  text-transform: uppercase;
+  padding: 10px;
+  margin: 10px 0;
 }
 
 a {
   text-decoration: none;
   color: brown;
+  text-transform: uppercase;
+  margin-bottom: 3px;
 }
 
 a:hover {
@@ -75,5 +98,5 @@ a:hover {
 }
 
 ul, ol {
-  padding: 50px;
+  padding: 15px;
 }
